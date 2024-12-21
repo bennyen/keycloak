@@ -1,0 +1,7 @@
+name: keycloak
+services:
+    keycloak:
+        ports:
+            - 18080:8080
+        image: keycloak
+        env_file: keycloak.env
